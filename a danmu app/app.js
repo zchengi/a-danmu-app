@@ -10,6 +10,24 @@ $(document).ready(function () {
         }, function () {
             $(".f_inputdiv_color").css({display: "none"});
         });
+   /*
+   显示颜色方法2
+   var count = 0;
+    $(".f_inputdiv img").click(
+        function () {
+            for (count; count < 1000;) {
+                if ((count + 2) % 2 == 0) {
+                    //alert(count);
+                    $(".f_inputdiv_color").css({display: "block"});
+                    break;
+                } else {
+                    //alert(count);
+                    $(".f_inputdiv_color").css({display: "none"});
+                    break;
+                }
+            }
+            count++;
+        });*/
     /*√√√√√√√√*/
     $(".f_inputdiv_color li").click(function () {
         var index = $(this).index();
