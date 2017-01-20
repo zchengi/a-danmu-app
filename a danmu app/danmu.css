@@ -1,0 +1,95 @@
+@charset  "utf-8";
+*{
+    margin:0;padding:0;
+    font-family:"微软雅黑","黑体",normal;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+.dm{
+    margin:30px;text-align: center;
+}
+
+/*屏幕*/
+.dm_screen{
+    border: 5px solid rgb(183, 247, 191);border-radius: 9px;overflow:hidden;position:relative;
+}
+/*遮罩*/
+.dm .dm_screen .dm_mask{  width:100%;height:500px;
+}
+
+/*show*/
+.dm .dm_screen .dm_show div{
+    font-size:25px;line-height: 36px;font-weight:500;position:absolute;top:0;left:0;color: #fff;height:500px;z-index:9999;
+}
+
+/*输入框*/
+.f_text{
+    margin-top:20px;
+}
+
+.f_inputdiv{
+    position: relative;width:412px;margin:auto;
+}
+
+
+/*在这里输入*/
+.f_input_text {
+    width: 399px;height: 35px;border: 1px solid #CCCCCC;border-radius: 3px;padding-left: 10px;
+}
+.f_inputdiv img{
+    position: absolute;top:1px;right:2px;border-left:1px solid #CCCCCC;border-radius:3px;
+}
+/*彩色弹幕*/
+.f_inputdiv_color{
+    width:320px;height:37px;position: absolute;top:0px;right:-322px;float: left;display:none;
+}
+.f_inputdiv_color li{
+    float: left;margin-left:15px;margin-top:3px;
+}
+
+.f_inputdiv_color li div{
+    width:30px;height:30px;border-radius:5px;
+}
+.f_inputdiv_color_btn1{background: #2C3E50;}
+.f_inputdiv_color_btn2{background: #FF69B4;}
+.f_inputdiv_color_btn3{background: #9B39F4;}
+.f_inputdiv_color_btn4{background: #00FFFF;}
+.f_inputdiv_color_btn5{background: #1E87F0;}
+.f_inputdiv_color_btn6{background: #7AC84B;}
+.f_inputdiv_color_btn7{background: #FF0000;}
+ul li:hover {
+    transform: scale(1.3);transition: 0s ease;
+}
+.f_inputdiv_color  i{
+    background: url("choice.png") no-repeat;width:30px;height:29px;margin-left:-16px;position:absolute;display:none;
+}
+.f_inputdiv_color_btn1 i{
+    display:block;margin-left:0px;
+}
+
+/*发射*/
+.f_btn1{
+    border:1px orange solid;
+    background: #fff;
+    border-radius: 3px;
+    width:165px;
+    height:35px;
+    margin-top:10px;
+    font-size:17px;
+    color: rgb(230, 80, 0);
+}
+
+/*清屏*/
+.f_btn2{
+    border:1px rgb(106, 255, 27) solid;
+    background: #fff;
+    border-radius: 3px;
+    width:165px;
+    height:35px;
+    margin-top:10px;
+    font-size:17px;
+    color: rgb(106, 255, 27);
+}

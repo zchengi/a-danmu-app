@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src=jQuery.js></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class=dd> asdasd</div>
+<div class=d>asd</div>
+<script>
+    $(".d").toggle(
+        function(){
+            $(".dd").css({display:"none"});
+        },
+        function(){
+            $(".dd").css({display:"block"});
+        }
+    )
+</script>
+</body>
+</html>
